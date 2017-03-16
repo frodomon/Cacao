@@ -51,9 +51,8 @@
           </div>
         </nav>
       </section>
-      <section id="toggle-menu">
-        <div class='container'>
-          <div class="row bg-marron-cacao">
+        <div class="container">
+          <div class="row">
             <div class="col-2 togglemenu">
               <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </div>
