@@ -2,7 +2,6 @@
 	background-color:#6F5317;
 	text-align: right;
 }
-
 #redes-top .redes a{
 	font-size: 20px;
 	color: rgba(255,255,255,0.2);
@@ -13,9 +12,8 @@
 }
 #nav-link a:hover{
 	transform: translateY(-5px);
-    border-top: 5px solid #f7f7f9;
+  border-top: 5px solid #f7f7f9;
 }
-
 #redes-top #idiomas{
 	color: white;
 	display: inline-block;
@@ -172,3 +170,100 @@ footer{
 	font-weight: bold;
 	padding:10px 0;
 }
+.togglemenu{
+  display:none;
+}
+.responsive-menu{
+  display:none;
+}
+.toggle-menu{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.toggle-menu li{
+  font-weight: bold;
+  padding: 0.5rem 0;
+  background-color: #1E3440;
+  color: #FFFFFF;
+  text-align: left;
+}
+.toggle-menu li:last-child{
+  padding-bottom: 0;
+}
+.toggle-menu li:hover{
+  background-color: #3C687F;
+}
+.toggle-menu li a{
+	padding: 0 0.9rem;
+	font-size: 1.5rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.toggle-menu li a:hover{
+	color: #FFFFFF;
+}
+.toggle-menu li ul{
+  list-style-type: none;
+  padding: 0;
+}
+.toggle-menu li ul li{
+  padding: 0.5rem 0;
+  background-color: #1E3440;
+  color: #FFFFFF;
+}
+.toggle-menu li ul li a{
+	padding: 0 1.8rem;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.toggle-menu .menu-item-has-children a{
+	margin-bottom: 0.5rem;
+	display:block;
+}
+.toggle-menu li ul li:hover{
+	background-color: #3C687F;
+}
+.toggle-menu li ul li:first-child{
+	padding-top: 0.5rem
+}
+.toggle-menu li ul li:last-child{
+	padding-bottom: 0.5rem
+}
+.toggle-menu li ul li a{
+	margin: 0;
+}
+@media only screen and (min-width: 2560px){
+	.togglemenu{
+  display:none;
+	}
+	.responsive-menu{
+	  display:none;
+	}
+}
+@media only screen and (min-width: 1716px) and (max-width: 2559px){
+	.togglemenu{
+  display:none;
+	}
+	.responsive-menu{
+	  display:none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1715px){
+	.togglemenu{
+  	display:none;
+	}
+	.responsive-menu{
+	  display:none;
+	}
+}
+@media only screen and (max-width: 767px){
+	html{
+		font-size: 14px;
+	}
+	.togglemenu{
+		display:block;
+		width: 90%;
+		margin: 0 5%;
+		text-align: left;
+	}

@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-	jQuery('ul.main-menu').superfish();
 	jQuery(function() {
 		// Dropdown toggle
 		jQuery('.togglebar').click(function(){

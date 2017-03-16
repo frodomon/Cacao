@@ -18,18 +18,3 @@
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
-<script type="text/javascript">
-	window.sr = ScrollReveal({
-	 reset: true,
-	 origin: 'bottom',
-	 mobile: false
-	});
-	sr.reveal('.index-post');
- 	$(window).ready(function() {
-	  $('.flexslider').flexslider({
-	    animation: "slide",
-	    controlNav: false
-	  });
-	  $('.entry-video').fitVids();
-	}); 
-</script>

@@ -15,12 +15,3 @@
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
-<script type="text/javascript">
- 	$(window).ready(function() {
-	  $('.flexslider').flexslider({
-	    animation: "slide",
-	    controlNav: false
-	  });
-	  $('.entry-video').fitVids();
-	}); 
-</script>

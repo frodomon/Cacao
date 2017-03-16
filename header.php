@@ -3,6 +3,9 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Contenido">
+  <meta name="keywords" content="Palabras clave">
+  <meta name="author" content="Nombre del diseñador">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php bloginfo('name'); ?> | <?php wp_title(''); ?></title>
   <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
@@ -13,24 +16,50 @@
 </head>
 <body>
   <div id='wrap'>
-	  <header>
-	  	<div class="header-logo">
-	      <?php $logo= get_option( 'dohko_logo');
-	      	if (strcmp($logo, '') === 0) { $logo = IMAGES.'/dohko logo.png'; } 
-	       ?>
-	      <img id="logo-header" src="<?php print $logo; ?>" alt="<?php bloginfo('name'); ?>" />
-	    </div>
-      <div class="header-menu">
-      	<?php
-          get_search_form();
-      	  wp_nav_menu( array('menu' => 'Main', 'menu_class' => 'sf-menu' ));
-        ?>
-        <div class="togglemenu">
-          <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+    <header>
+      <section id="redes-top" >
+        <div class="container">
+          <div class="redes py-2">
+            <a href="#"><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+            <p id="idiomas" class="mb-0">
+              <span><a id="idioma" href="#">EN</a></span>
+              <span style="height: 1px;background-color: white;width: 1px;">|</span>
+              <span><a id="idioma" href="#">NL</a></span>
+            </p>
+            
+          </div>
         </div>
+      </section>
+      <section id="nav-items"  style="    border-top: 5px solid #542605;">
+        <nav class="container" >
+          <div  class="row" >
+            <div class="col-3 my-4"><a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo.png'; ?>"></a></div>
+            <div class="col-9">
+              <ul id="nav-link">
+                <li><a href="#" active><span>HOME</span></a></li>
+                <li><a href="#"><span>EVENTO</span></a></li>
+                <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
+                <li><a href="#"><span>SOCIOS</span></a></li>
+                <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
+                <li><a href="#"><span>CONTACTO</span></a></li>
+              </ul>
+            </div>
+            <div class="col-9 togglemenu">
+              <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <div class="responsive-menu">
+        <ul>
+          <li><a href="#" active><span>HOME</span></a></li>
+          <li><a href="#"><span>EVENTO</span></a></li>
+          <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
+          <li><a href="#"><span>SOCIOS</span></a></li>
+          <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
+          <li><a href="#"><span>CONTACTO</span></a></li>
+        </ul>
       </div>
-    </header>	
-    <hr/>
-    <div class="responsive-menu">
-        <?php wp_nav_menu( array( 'theme_location' => 'primary mobile', 'menu_class' => 'toggle-menu' ) ); ?>
-    </div>
+  </header>
