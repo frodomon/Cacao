@@ -1,0 +1,174 @@
+#redes-top{
+	background-color:#6F5317;
+	text-align: right;
+}
+
+#redes-top .redes a{
+	font-size: 20px;
+	color: rgba(255,255,255,0.2);
+	padding-right: 20px;
+}
+#redes-top .redes a:hover{
+	color: rgba(255,255,255,0.5);
+}
+#nav-link a:hover{
+	transform: translateY(-5px);
+    border-top: 5px solid #f7f7f9;
+}
+
+#redes-top #idiomas{
+	color: white;
+	display: inline-block;
+}
+#redes-top #idiomas a{
+	color: white;
+	padding-right: 0;
+}
+
+
+.img-fluid{
+	width: 100%;
+    height: 100%;
+}
+.b{
+	font-weight: bold !important;
+}
+.sb{
+	font-weight: 400 !important;
+}
+
+#bg-choco{
+	background-image: url('../img/bg-chocolate.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#bg-choco a{
+	margin-right: 20px;
+	background-color: white;
+    color: #523009;
+    padding: 1rem 1rem !important;
+    border-color: transparent;
+    white-space: normal;
+}
+#bg-choco a:hover{
+	background-color: #523009;
+    color: white;
+}
+*{
+	position: relative;
+}
+
+
+
+
+.f1{font-size: 1rem !important;}
+.f2{font-size: 2rem !important;}
+.f3{font-size: 3rem !important;}
+.f4{font-size: 4rem !important;}
+.f5{font-size: 5rem !important;}
+.f6{font-size: 6rem !important;}
+.f7{font-size: 7rem !important;}
+.f8{font-size: 8rem !important;}
+.f9{font-size: 9rem !important;}
+.f10{font-size: 10rem !important;}
+
+.f1-5{font-size: 1.5rem !important;}
+.f2-5{font-size: 2.5rem !important;}
+.f3-5{font-size: 3.5rem !important;}
+.f4-5{font-size: 4.5rem !important;}
+.f5-5{font-size: 5.5rem !important;}
+.f6-5{font-size: 6.5rem !important;}
+.f7-5{font-size: 7.5rem !important;}
+
+
+.re{
+	    color: #960583 !important;
+}
+
+@media screen and (max-width: 767px) {
+	#nav-link{
+		display: none !important;
+	}
+
+	#bg-choco .btn{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 490px){
+	#nosotros #evento{
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#carouselTop{
+		display: none !important;
+	}
+}
+
+
+
+
+footer{
+	background-color: #28101e;
+}
+.footer-column{
+	padding-top: 80px;
+}
+.footer-column ul{
+	padding:0;
+}
+.footer-column ul li{
+	list-style: none;
+}
+.footer-title{
+	font-size:20px;
+	color: #f3910e;
+}
+.footer{
+	padding-bottom: 40px;
+}
+.footer-copyright{
+	padding: 16px 0;
+	background-color: #dedede;
+}
+.form_body{
+	list-style: none;
+}
+.form_body ul{
+	padding:0;
+}
+.textbox{
+	border-radius: 4px;
+	width:100%;
+	padding: 0 15px; 
+}
+.form_description,
+.textwidget{
+	color: #8b706e;
+}
+.redes_footer a{
+	color: #f3910e;
+	padding: 0 10px;
+}
+.address{
+	padding-bottom: 25px;
+}
+#form_submit_button{
+	width:100%;
+	border-radius: 4px;
+	background: #f3910e;
+	color: #fff;
+	box-sizing: border-box;
+	display:inline-block;
+	border:0;
+	font-weight: bold;
+	padding:10px 0;
+}
