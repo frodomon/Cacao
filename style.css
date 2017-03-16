@@ -5,9 +5,8 @@ Author URI: http://www.smartbrands.com
 Description: An event theme.
 Version: 1.0
 */
-
-@import url("css/bootstrap.min.css");
 @import url("css/reset.css");
+@import url("css/bootstrap.min.css");
 @import url("css/font-awesome.min.css");
 @import url("css/master.css");
 @import url("css/ie.css");
