@@ -51,6 +51,7 @@
           </div>
         </nav>
       </section>
+      <section id="toggle-menu" class='px-3'>
         <div class="container">
           <div class="row">
             <div class="col-2 togglemenu">
