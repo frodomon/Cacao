@@ -1,28 +1,186 @@
-#redes-top{
-	background-color:#6F5317;
+/*-----------------------BASICS---------------*/
+html{
+	font-size:16px
+}
+.marron-cacao{
+		color: #512B1C;
+	}
+.bg-marron-cacao{
+	background-color: #512B1C;
+	color: #FFFFFF;
+}
+/*-----------------------HEADER---------------*/
+#top-header{
+	background-color: #633A2C;
 	text-align: right;
 }
-#redes-top .redes a{
-	font-size: 20px;
-	color: rgba(255,255,255,0.2);
+#top-header .redes a{
+	font-size: 1.25rem;
+	color: #FFFFFF;
+	opacity: 0.2;
+	padding-right: 1.25rem;
+}
+#top-header .redes a:hover{
+	opacity:1;
+}
+#top-header #idiomas{
+	display: inline-block;
+}
+.separator{
+	height: 1px;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	opacity: 0.2;
+	width: 1px;
+}
+#top-header #idiomas a{
+	color: #FFFFFF;
+	opacity: 0.2;
+	padding-right: 0;
+	text-decoration: none;
+}
+#top-header #idiomas a:hover{
+	opacity:1;
+}
+#bottom-header{
+	border-top: 5px solid #542605;
+}
+#main-menu{
+	display: inline-block;
+	list-style: none;
+	margin-bottom: 0;
+	float: right;
+	height: 100%;
+}
+#main-menu ul li{
+	display: table;
+	float: left;
 	padding-right: 20px;
 }
-#redes-top .redes a:hover{
-	color: rgba(255,255,255,0.5);
+#main-menu ul li a{
+	text-decoration: none;
+	height: 139px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 17px;
+	transition: all .5s ease;
 }
-#nav-link a:hover{
+#main-menu ul li a span{
+	color: #b97528  !important;
+}
+#main-menu ul li a:hover span{
+	color:#ed5d01 !important;
+}
+#main-menu ul a:hover{
 	transform: translateY(-5px);
   border-top: 5px solid #f7f7f9;
 }
-#redes-top #idiomas{
-	color: white;
-	display: inline-block;
+/*----------------------TOGGLE-MENU-----------------*/
+.togglemenu,
+#toggle-menu,
+#responsive-menu{
+  display:none;
 }
-#redes-top #idiomas a{
-	color: white;
-	padding-right: 0;
+#toggle-menu{
+	display:flex;
+	flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.responsive-menu li{
+  padding: 0.5rem 0;
+  background-color: #512B1C;
+  color: #FFFFFF;
+  text-align: left;
+}
+.responsive-menu li:hover{
+  background-color: #633A2C;
+}
+.responsive-menu li a{
+	padding: 0 0.9rem;
+	font-size: 1.5rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.responsive-menu li a:hover{
+	color: #FFFFFF;
+}
+.togglemenu{
+	text-align: left;
+	padding: 10px 0 10px 5%;
+	font-size: 2rem;
+}
+.toggle-title{
+	display:flex;
+	flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-title h1{
+	margin:0;
+	font-size:2rem;
+}
+	
+.togglebar,
+.togglebar:visited{
+	color: #FFFFFF;	
+}
+.toggle-menu li ul{
+  list-style-type: none;
+  padding: 0;
+}
+.toggle-menu li ul li{
+  padding: 0.5rem 0;
+  background-color: #1E3440;
+  color: #FFFFFF;
+}
+.toggle-menu li ul li a{
+	padding: 0 1.8rem;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.toggle-menu .menu-item-has-children a{
+	margin-bottom: 0.5rem;
+	display:block;
+}
+.toggle-menu li ul li:hover{
+	background-color: #3C687F;
+}
+.toggle-menu li ul li:first-child{
+	padding-top: 0.5rem
+}
+.toggle-menu li ul li:last-child{
+	padding-bottom: 0.5rem
+}
+.toggle-menu li ul li a{
+	margin: 0;
+}
+/*--------------*/
+
+#nav-items{
+	transition: all 2s ease;
 }
 
+.nav-fixed{
+	position: fixed !important;
+    top: 0 !important;
+    z-index: 4 !important;
+    width: 100% !important;
+    background-color: white !important;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#img-logo{
+	transition: all .5s ease;
+}
+.logo-small{
+	height:42px;
+}
 
 .img-fluid{
 	width: 100%;
@@ -58,9 +216,16 @@
 *{
 	position: relative;
 }
-
-
-
+/*---------------------------FRONT-PAGE----------------------*/
+#nosotros{
+	padding: 1.8rem 0;
+}
+#nosotros h2{
+	font-weight: bold;
+}
+.description{
+	margin-top: 2rem;
+}
 
 .f1{font-size: 1rem !important;}
 .f2{font-size: 2rem !important;}
@@ -86,35 +251,8 @@
 	    color: #960583 !important;
 }
 
-@media screen and (max-width: 767px) {
-	#nav-link{
-		display: none !important;
-	}
-
-	#bg-choco .btn{
-		width: 100%;
-		margin-right: 0;
-		margin-bottom: 10px;
-	}
-}
-
-@media screen and (max-width: 490px){
-	#nosotros #evento{
-		padding-left: 1rem !important;
-		padding-right: 1rem !important;
-	}
-}
-
-@media screen and (max-width: 360px){
-	#carouselTop{
-		display: none !important;
-	}
-}
-
-
-
-
-footer{
+/*----------FOOTER -------*/
+#footer{
 	background-color: #28101e;
 }
 .footer-column{
@@ -127,15 +265,15 @@ footer{
 	list-style: none;
 }
 .footer-title{
-	font-size:20px;
-	color: #f3910e;
+	font-size: 1.25rem;
+	color: #FFA300;
 }
 .footer{
 	padding-bottom: 40px;
 }
 .footer-copyright{
 	padding: 16px 0;
-	background-color: #dedede;
+	background-color: #DEDEDE;
 }
 .form_body{
 	list-style: none;
@@ -170,69 +308,7 @@ footer{
 	font-weight: bold;
 	padding:10px 0;
 }
-.togglemenu{
-  display:none;
-}
-.responsive-menu{
-  display:none;
-}
-.toggle-menu{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.toggle-menu li{
-  font-weight: bold;
-  padding: 0.5rem 0;
-  background-color: #1E3440;
-  color: #FFFFFF;
-  text-align: left;
-}
-.toggle-menu li:last-child{
-  padding-bottom: 0;
-}
-.toggle-menu li:hover{
-  background-color: #3C687F;
-}
-.toggle-menu li a{
-	padding: 0 0.9rem;
-	font-size: 1.5rem;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-.toggle-menu li a:hover{
-	color: #FFFFFF;
-}
-.toggle-menu li ul{
-  list-style-type: none;
-  padding: 0;
-}
-.toggle-menu li ul li{
-  padding: 0.5rem 0;
-  background-color: #1E3440;
-  color: #FFFFFF;
-}
-.toggle-menu li ul li a{
-	padding: 0 1.8rem;
-	text-decoration: none;
-	color: #FFFFFF;
-}
-.toggle-menu .menu-item-has-children a{
-	margin-bottom: 0.5rem;
-	display:block;
-}
-.toggle-menu li ul li:hover{
-	background-color: #3C687F;
-}
-.toggle-menu li ul li:first-child{
-	padding-top: 0.5rem
-}
-.toggle-menu li ul li:last-child{
-	padding-bottom: 0.5rem
-}
-.toggle-menu li ul li a{
-	margin: 0;
-}
+/*-------------------------MEDIA QUERY--------------------*/
 @media only screen and (min-width: 2560px){
 	.togglemenu{
   display:none;
@@ -261,9 +337,24 @@ footer{
 	html{
 		font-size: 14px;
 	}
-	.togglemenu{
-		display:block;
-		width: 90%;
-		margin: 0 5%;
-		text-align: left;
+	#nav-link{
+		display: none !important;
 	}
+	#bg-choco .btn{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	#top-header,
+	#bottom-header{
+		display:none;
+	}
+	.toggle-menu-menu,
+	.togglemenu,
+	#toggle-menu{
+	  display:block;
+	}
+	#carouselTop{
+		display: none;
+	}
+}

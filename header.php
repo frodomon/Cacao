@@ -17,27 +17,29 @@
 <body>
   <div id='wrap'>
     <header>
-      <section id="redes-top" >
+      <section id="top-header" >
         <div class="container">
           <div class="redes py-2">
             <a href="#"><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
             <a href="#"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="#"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
-            <p id="idiomas" class="mb-0">
+          <div id="idiomas" class="mb-0">
               <span><a id="idioma" href="#">EN</a></span>
-              <span style="height: 1px;background-color: white;width: 1px;">|</span>
+              <span class="separator">|</span>
               <span><a id="idioma" href="#">NL</a></span>
-            </p>
+          </div>
             
           </div>
         </div>
       </section>
-      <section id="nav-items"  style="    border-top: 5px solid #542605;">
-        <nav class="container" >
-          <div  class="row" >
-            <div class="col-3 my-4"><a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo.png'; ?>"></a></div>
-            <div class="col-9">
-              <ul id="nav-link">
+      <section id="bottom-header">
+        <div class="container">
+          <div class="row" >
+            <div class="col-xl-3 col-lg-3 col-md-3 col-3 my-4">
+              <a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo.png'; ?>"></a>
+            </div>
+            <div id="main-menu" class="col-xl-9 col-lg-9 col-md-9 col-9">
+              <ul>
                 <li><a href="#" active><span>HOME</span></a></li>
                 <li><a href="#"><span>EVENTO</span></a></li>
                 <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
@@ -46,20 +48,33 @@
                 <li><a href="#"><span>CONTACTO</span></a></li>
               </ul>
             </div>
-            <div class="col-9 togglemenu">
-              <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
-            </div>
           </div>
         </nav>
       </section>
-      <div class="responsive-menu">
-        <ul>
-          <li><a href="#" active><span>HOME</span></a></li>
-          <li><a href="#"><span>EVENTO</span></a></li>
-          <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
-          <li><a href="#"><span>SOCIOS</span></a></li>
-          <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
-          <li><a href="#"><span>CONTACTO</span></a></li>
-        </ul>
-      </div>
+      <section id="toggle-menu">
+        <div class='container'>
+          <div class="row bg-marron-cacao">
+            <div class="col-2 togglemenu">
+              <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-8 toggle-title ">
+              <h1>Cacao y Chocolate</h1>
+            </div>
+            <div class="col-2">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="responsive-menu">
+        <div class="responsive-menu">
+          <ul>
+            <li><a href="#" active><span>HOME</span></a></li>
+            <li><a href="#"><span>EVENTO</span></a></li>
+            <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
+            <li><a href="#"><span>SOCIOS</span></a></li>
+            <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
+            <li><a href="#"><span>CONTACTO</span></a></li>
+          </ul>
+        </div>
+      </section>
   </header>

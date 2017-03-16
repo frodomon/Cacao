@@ -1,4 +1,4 @@
-		<footer>
+		<section id="footer" class="px-3">
 			<div class="container footer">
 				<div class="row">
 					<div class="footer-column col-md-6">
@@ -74,13 +74,13 @@
 					</div>
 				</div>
 			</div>
-			<div class= "footer-copyright">
+		</section>
+		<footer class= "footer-copyright">
 				<div class="container">
 					<div class="row">
 						<div ><a href=""><img id="img-logo" src="<?php print IMAGES. '/logo.png' ?>"  ></a></div>
 					</div>
 				</div>
-			</div>
 		</footer>
 			<!-- End Footer Information -->
 			<?php wp_footer(); ?>  
