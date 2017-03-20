@@ -52,9 +52,9 @@
 						<div class="address">
 							<h4 class="footer-title">Ubicanos</h4>			
 							<div class="textwidget">
-								<p class="footer-content no-margin">Del 06 al 09 de Julio del 2017</p>
-								<p class="footer-content no-margin">El VIII Salón del Cacao & Chocolate se realizará</p>
-								<p class="footer-content no-margin">en el Centro de Convenciones de Lima “27 de enero”</p>
+								<p class="footer-content no-margin">VIII Salón del Cacao & Chocolate</p>
+								<p class="footer-content no-margin">Centro de Convenciones de Lima</p>
+								<p class="footer-content no-margin">Av. El Comercio S/N</p>
 								<p class="footer-content no-margin">San Borja, Lima – Perú.</p>
 							</div>
 							<div style="clear:both;"></div>

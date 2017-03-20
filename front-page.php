@@ -16,7 +16,8 @@
 			<div class="row">
 				<div class="col-xl-12 col-lg-12 col-md-12 col-12">
 					<h2 class='marron-cacao'>Centro de Origen de la Biodiversidad del Cacao</h2>
-					<p>El VIII Salón del Cacao & Chocolate se realizará en el Centro de Convenciones de Lima “27 de enero” San Borja, Lima – Perú.</p>
+					<p>Desde el año 2010, las organizaciones de productores, fabricantes, emprendedores y exportadores de cacao y derivados con mira a elevar la calidad, productividad y oferta exportable del cacao peruano y posicionarlo en los mercados nacionales e internacionales, realizan con el apoyo del Sector Público, Privado y de Cooperación Internacional el “Salón del Cacao y Chocolate”.
+</p>
 				</div>
 		</div>
 				
