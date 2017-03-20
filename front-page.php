@@ -100,7 +100,7 @@
 			</div>
 			<div class="row py-4">
 				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/bosque-tematico/">BOSQUE TEMÁTICO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/salon-de-exhibicion/">SALÓN DE EXPOSICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/salon-de-exhibicion/">SALÓN DE EXHIBICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
 			</div>
 			<div class="row py-4">
 				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/cadena-del-cacao-al-chocolate/">CADENA DEL CACAO AL CHOCOLATE <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

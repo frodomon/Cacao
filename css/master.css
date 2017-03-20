@@ -176,9 +176,15 @@ html{
     background-color: white !important;
     box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
-
+.header-logo{
+	position:relative;
+}
 #img-logo{
 	transition: all .5s ease;
+	width:60%;
+	position:absolute;
+	top: -30px;
+	left:0;
 }
 .logo-small{
 	height:42px;
@@ -350,6 +356,12 @@ html{
 .logo-footer img{
 	width:100%;
 }
+.linea-footer{
+	background-image: url('../img/linea-footer.png');
+  background-repeat: repeat-y;
+  background-size: 100% 100%;
+  height: 50px;
+}
 /*---------CONTENIDO----------------*/
 .post h2{
 	text-align: center;
@@ -368,12 +380,27 @@ html{
 .contenido{
 	padding: 2rem 0;
 }
+.naranjacacao,
+.naranjacacao:visited{
+	color:#FFA300;
+}
+.naranjacacao:hover{
+	color:#FF4611;
+}
+
 .logos{
 	width:33.33%;
 	text-align: center;
+	float:left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+
 }
 .logos img{
-	width:100%
+	width:100%;
 	display:block;
 }
 /*----------PAGES -------*/

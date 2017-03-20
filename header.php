@@ -36,7 +36,9 @@
         <div class="container">
           <div class="row" >
             <div class="col-xl-3 col-lg-3 col-md-3 col-3 my-4">
-              <a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo_nombre.png'; ?>"></a>
+              <div class="header-logo">
+                <img id="img-logo" src="<?php print IMAGES.'/logo-header.png'; ?>">
+              </div>
             </div>
             <div id="main-menu" class="col-xl-9 col-lg-9 col-md-9 col-9">
               <?php wp_nav_menu( array('menu' => 'Main', 'menu_class' => 'sf-menu' )); ?>

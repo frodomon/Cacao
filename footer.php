@@ -15,19 +15,16 @@
               <div class='form_body'>
               	<ul>
                 	<li>
-                		<label class='gfield_label' for='input_3_2' >Nombre</label>
                 			<div class='ginput_container ginput_container_text'>
                 				<input class="textbox" type='text' value='' class='large'  tabindex='3'  placeholder='Nombres' />
                 			</div>
                 	</li>
                 	<li>
-                		<label class='gfield_label' for='input_3_3' >Apellidos</label>
                 		<div class='ginput_container ginput_container_text'>
                 			<input class="textbox" type='text' value='' class='large'  tabindex='4'  placeholder='Apellidos' />
                 		</div>
                 	</li>
                 	<li>
-                		<label class='gfield_label' for='input_3_4' >E-mail</label>
                 		<div class='ginput_container ginput_container_email'>
                 			<input class="textbox" type='text' value='' class='large' tabindex='5'   placeholder='E-mail'/>
                 		</div>
@@ -44,7 +41,7 @@
 					<div class="footer-column col-md-3">
 						
 						<div class="address">
-							<h4 class="footer-title">Ubicanos</h4>			
+							<h4 class="footer-title">Ubícanos</h4>			
 							<div class="textwidget">
 								<p class="footer-content no-margin">VIII Salón del Cacao & Chocolate</p>
 								<p class="footer-content no-margin">Centro de Convenciones de Lima</p>
@@ -70,10 +67,11 @@
 			</div>
 		</section>
 		<footer class= "footer-copyright">
+			<div class="linea-footer"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-2 col-lg-2 col-md-2 col-2">
-						<div class='logo-footer'><a href=""><img id="img-logo" src="<?php print IMAGES. '/logo_white.png' ?>"  ></a></div>
+						<div class='logo-footer'><a href=""><img src="<?php print IMAGES. '/logo-footer.png' ?>"  ></a></div>
 					</div>
 					<div class="col-xl-10 col-lg-10 col-md-9 col-10 branding">
 						<p>2017 @ Salón del Cacao y Chocolate - Desarrollado por <a href="http://www.sb360.com.pe"><strong>SmartBrands</strong></a></p>
