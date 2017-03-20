@@ -15,6 +15,6 @@
 		</div>
 		<?php dohko_pagination($pages = '', $range = 2); ?>
 	</div>
-	<?php get_sidebar(); ?>
+
 </div>
 <?php get_footer(); ?>

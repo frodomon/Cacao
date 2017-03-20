@@ -19,6 +19,7 @@
 					<p>El VIII Salón del Cacao & Chocolate se realizará en el Centro de Convenciones de Lima “27 de enero” San Borja, Lima – Perú.</p>
 				</div>
 		</div>
+				
 		<div class="container description">
 			<div class="row">
 				<div class="col-md-6 px-0">
@@ -44,9 +45,9 @@
 					  </a>
 					</div>
 				</div>
-				<div class="col-md-6 px-0  text-white" style="background-color: #a52e60 !important;">
-					<div id="evento" style="max-width: 430px;width: 100%;" class="pl-5 py-4 pr-3">
-						<h1 class="b text-justify">SALON DEL CACAO Y EL CHOCOLATE</h1>
+				<div class="col-md-6 px-0 featured_event">
+					<div id="evento" class="pl-3 py-4 pr-3">
+						<h1 class="b text-justify">SALÓN DEL CACAO Y EL CHOCOLATE</h1>
 						<p class="text-justify">El Salón busca integrar a los diferentes agentes económicos nacionales e internacionales de la cadena productiva del cacao, para gestionar conocimiento, intercambiar información,  establecer redes de contacto y promover la actividad comercial  del cacao y derivados en el mercado nacional e internacional. <span><a href="#" class="b  text-white">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
@@ -55,25 +56,25 @@
 
 
 			<div class="row py-4">
-				<div id="subitems" class="col-md-4 px-0">
+				<div class="col-md-4 subitems">
 					<img src="<?php print IMAGES. '/subitems/Chocoa-trade-fair-e1449491246476.jpeg' ?>" width="100%" alt="">
 					<div class="p-3">
-						<h3 class="text-center re">SALÓN DE EXHIBICIÓN</h3>
-						<p>Más de 120 stands pre-decorados albergarán a los más destacados productores de las regiones cacaoteras del Perú, así como representantes de los países con oferta exportable de cacao... <span><a href="#" class="b  text-muted re">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<h3 class="text-center">RUEDA DE NEGOCIOS</h3>
+						<p>Más de 120 stands pre-decorados albergarán a los más destacados productores de las regiones cacaoteras del Perú, así como representantes de los países con oferta exportable de cacao... <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
-				<div id="subitems" class="col-md-4 px-0">
+				<div class="col-md-4 subitems">
 					<img src="<?php print IMAGES. '/subitems/event_2-e1449495732163.jpg' ?>" width="100%" alt="">
 					<div class="p-3">
-						<h3 class="text-center re">CONFERENCIAS MAGISTRALES</h3>
-						<p>Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y... <span><a href="#" class="b  text-muted re">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<h3 class="text-center">CONFERENCIAS MAGISTRALES</h3>
+						<p>Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y... <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
-				<div id="subitems" class="col-md-4 px-0">
+				<div class="col-md-4 subitems">
 					<img src="<?php print IMAGES. '/subitems/CHOCOA-3997-e1449491310680.jpg' ?>" width="100%" alt="">
 					<div class="p-3">
-						<h3 class="text-center re">CHOCO - DEMO</h3>
-						<p>Clases magistrales para la preparación de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados. <span><a href="#" class="b  text-muted re">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<h3 class="text-center">CHOCO - DEMO</h3>
+						<p>Clases magistrales para la preparación de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados. <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
 			</div>
@@ -81,7 +82,14 @@
 		</div>
 
 	</section>
-
+	<?php echo do_shortcode('[wpcdt-countdown id="6"]'); ?>
+	<section id="countdown">
+			<div class="container">
+				<div class="row">
+					
+				</div>
+			</div>
+	</section>
 	<section id="bg-choco" class="py-5">
 		<div class="container py-5 my-5">
 			<div class="row py-4">
@@ -91,8 +99,7 @@
 			</div>
 			<div class="row py-4">
 				<a class="btn btn-secondary f1-5 b" href="#">BOSQUE TEMÁTICO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="#">BELLEZA CON CHOCOLATE <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="#">SALA DE EXPOSICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="#">SALÓN DE EXPOSICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
 			</div>
 			<div class="row py-4">
 				<a class="btn btn-secondary f1-5 b" href="#">CADENA DEL CACAO AL CHOCOLATE <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>

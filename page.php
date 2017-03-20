@@ -10,6 +10,6 @@
 			<p><?php _e('No posts were found. Sorry!'); ?></p>
 		<?php endif; ?>
 	</div>
-	<?php get_sidebar(); ?>
+
 </div>
 <?php get_footer(); ?>

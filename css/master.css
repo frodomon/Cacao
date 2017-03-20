@@ -17,7 +17,6 @@ html{
 #top-header .redes a{
 	font-size: 1.25rem;
 	color: #FFFFFF;
-	opacity: 0.2;
 	padding-right: 1.25rem;
 }
 #top-header .redes a:hover{
@@ -30,17 +29,15 @@ html{
 	height: 1px;
 	background-color: #FFFFFF;
 	color: #FFFFFF;
-	opacity: 0.2;
 	width: 1px;
 }
 #top-header #idiomas a{
 	color: #FFFFFF;
-	opacity: 0.2;
 	padding-right: 0;
 	text-decoration: none;
 }
 #top-header #idiomas a:hover{
-	opacity:1;
+	color: #FFFFFF;
 }
 #bottom-header{
 	border-top: 5px solid #542605;
@@ -52,12 +49,17 @@ html{
 	float: right;
 	height: 100%;
 }
+#main-menu ul{
+	padding:0;
+	margin:0;
+}
 #main-menu ul li{
 	display: table;
 	float: left;
 	padding-right: 20px;
 }
 #main-menu ul li a{
+	text-transform: uppercase;
 	text-decoration: none;
 	height: 139px;
 	display: table-cell;
@@ -65,11 +67,11 @@ html{
 	font-size: 17px;
 	transition: all .5s ease;
 }
-#main-menu ul li a span{
-	color: #b97528  !important;
+#main-menu ul li a{
+	color: #b97528  ;
 }
-#main-menu ul li a:hover span{
-	color:#ed5d01 !important;
+#main-menu ul li a:hover {
+	color:#ed5d01 ;
 }
 #main-menu ul a:hover{
 	transform: translateY(-5px);
@@ -121,7 +123,7 @@ html{
 .toggle-title h1{
 	color: #FFFFFF;
 	margin:0;
-	font-size:1.9rem;
+	font-size:1.2rem;
 }
 	
 .togglebar,
@@ -159,7 +161,9 @@ html{
 	margin: 0;
 }
 /*--------------*/
-
+#evento{
+	width:100%;
+}
 #nav-items{
 	transition: all 2s ease;
 }
@@ -214,6 +218,17 @@ html{
 *{
 	position: relative;
 }
+.subitems{
+	padding-right: 1rem;
+	padding-left: 0;
+}
+.subitems h3{
+	color: #512B1C;
+}
+.subitems:last-child{
+	padding-right: 0;
+
+}
 /*---------------------------FRONT-PAGE----------------------*/
 #nosotros{
 	padding: 1.8rem 0;
@@ -224,34 +239,26 @@ html{
 .description{
 	margin-top: 2rem;
 }
-
-.f1{font-size: 1rem !important;}
-.f2{font-size: 2rem !important;}
-.f3{font-size: 3rem !important;}
-.f4{font-size: 4rem !important;}
-.f5{font-size: 5rem !important;}
-.f6{font-size: 6rem !important;}
-.f7{font-size: 7rem !important;}
-.f8{font-size: 8rem !important;}
-.f9{font-size: 9rem !important;}
-.f10{font-size: 10rem !important;}
-
-.f1-5{font-size: 1.5rem !important;}
-.f2-5{font-size: 2.5rem !important;}
-.f3-5{font-size: 3.5rem !important;}
-.f4-5{font-size: 4.5rem !important;}
-.f5-5{font-size: 5.5rem !important;}
-.f6-5{font-size: 6.5rem !important;}
-.f7-5{font-size: 7.5rem !important;}
-
-
-.re{
-	    color: #960583 !important;
+.featured_event{
+ 	background-color: #512B1C;
+}
+#evento h1{
+	color:#FF4611;
+}
+#evento p{
+	color: #FFFFFF;
+}
+.readmore{
+	color:#512B1C;	
+}
+.readmore:visited,
+.readmore:hover{
+	color:#512B1C;		
 }
 
 /*----------FOOTER -------*/
 #footer{
-	background-color: #28101e;
+	background-color: #512B1C;
 }
 .footer-column{
 	padding-top: 80px;
@@ -262,16 +269,45 @@ html{
 .footer-column ul li{
 	list-style: none;
 }
-.footer-title{
+.footer a{
 	font-size: 1.25rem;
 	color: #FFA300;
+}
+.footer a:visited{
+	color: #FFA300;	
+	text-decoration: none;
+}
+.footer a:hover{
+	color: #FF4611;
+	text-decoration: none;
+}
+.footer-title{
+	color:#FFA300;
+}
+.footer-content{
+	color: #FFFFFF;
+}
+.no-padding{
+	padding:0;
+}
+.no-margin{
+	margin:0;
 }
 .footer{
 	padding-bottom: 40px;
 }
 .footer-copyright{
-	padding: 16px 0;
-	background-color: #DEDEDE;
+	padding: 1rem 0;
+	background-color: #512B1C;
+}
+.footer-copyright p,
+.footer-copyright a,
+.footer-copyright a:hover,
+.footer-copyright a:visited{
+	color: #C5B292;
+}
+.branding{
+	text-align: center;
 }
 .form_body{
 	list-style: none;
@@ -305,6 +341,32 @@ html{
 	border:0;
 	font-weight: bold;
 	padding:10px 0;
+}
+.logo-footer{
+	position: absolute;
+	bottom:0;
+	left: 0;
+}
+.logo-footer img{
+	width:100%;
+}
+/*---------CONTENIDO----------------*/
+.post h2{
+	text-align: center;
+	color: #ed5d01;
+	font-weight: bold;
+	padding: 10px 0;
+}
+.imagen{
+	width:100%;
+	display:flex;
+	flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.contenido{
+	padding: 2rem 0;
 }
 /*-------------------------MEDIA QUERY--------------------*/
 @media only screen and (min-width: 2560px){
@@ -355,4 +417,8 @@ html{
 	#carouselTop{
 		display: none;
 	}
+	.subitems{
+	padding-right: 0;
+	padding-left: 0;
+}
 }

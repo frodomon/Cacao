@@ -20,13 +20,13 @@
       <section id="top-header" >
         <div class="container">
           <div class="redes py-2">
-            <a href="#"><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/salondelcacaoychocolateperu" target="_blank"><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/salondelcacao" target="_blank"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/salondelcacao" target="_blank"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
           <div id="idiomas" class="mb-0">
-              <span><a id="idioma" href="#">EN</a></span>
+              <span><a id="idioma" href="#">ES</a></span>
               <span class="separator">|</span>
-              <span><a id="idioma" href="#">NL</a></span>
+              <span><a id="idioma" href="#">FR</a></span>
           </div>
             
           </div>
@@ -36,17 +36,10 @@
         <div class="container">
           <div class="row" >
             <div class="col-xl-3 col-lg-3 col-md-3 col-3 my-4">
-              <a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo.png'; ?>"></a>
+              <a href="#"><img id="img-logo" src="<?php print IMAGES.'/logo_nombre.png'; ?>"></a>
             </div>
             <div id="main-menu" class="col-xl-9 col-lg-9 col-md-9 col-9">
-              <ul>
-                <li><a href="#" active><span>HOME</span></a></li>
-                <li><a href="#"><span>EVENTO</span></a></li>
-                <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
-                <li><a href="#"><span>SOCIOS</span></a></li>
-                <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
-                <li><a href="#"><span>CONTACTO</span></a></li>
-              </ul>
+              <?php wp_nav_menu( array('menu' => 'Main', 'menu_class' => 'sf-menu' )); ?>
             </div>
           </div>
         </nav>
@@ -57,24 +50,15 @@
             <div class="col-2 togglemenu">
               <a class="togglebar" href="#" title="Menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </div>
-            <div class="col-8 toggle-title ">
-              <h1>Cacao y Chocolate</h1>
-            </div>
-            <div class="col-2">
+            <div class="col-10 toggle-title ">
+              <h1>Salón del Cacao y Chocolate</h1>
             </div>
           </div>
         </div>
       </section>
       <section id="responsive-menu">
         <div class="responsive-menu">
-          <ul>
-            <li><a href="#" active><span>HOME</span></a></li>
-            <li><a href="#"><span>EVENTO</span></a></li>
-            <li><a href="#bg-choco"><span>ACTIVIDADES</span></a></li>
-            <li><a href="#"><span>SOCIOS</span></a></li>
-            <li><a href="#nosotros"><span>NOSOTROS</span></a></li>
-            <li><a href="#"><span>CONTACTO</span></a></li>
-          </ul>
+          <?php wp_nav_menu( array( 'theme_location' => 'primary mobile', 'menu_class' => 'mobile-menu' ) ); ?>
         </div>
       </section>
   </header>
