@@ -2,15 +2,9 @@
 			<div class="container footer">
 				<div class="row">
 					<div class="footer-column col-md-6">
-						<ul>
-							<li><a href="#">Salón de Exposición</a></li>						
-							<li><a href="#">Cadena del Cacao al Chocolate: CHOCO MUSEO</a></li>
-							<li><a href="#">Ciclo de conferencias</a></li>
-						 	<li><a href="#">Rueda de Negocios</a></li>
-						 	<li><a href="#">Desfile de Modas</a></li>
-						 	<li><a href="#">Choco – demo</a></li>
-						 	<li><a href="#">Bosque Temático</a></li>
-						 </ul>
+						<div class="footer-menu">
+          		<?php wp_nav_menu( array( 'theme_location' => 'primary_footer', 'menu_class' => 'footer-menus' ) ); ?>
+        		</div>
 					</div>
 					<div class="footer-column col-md-3">
 						<form method='post'>
@@ -63,9 +57,9 @@
 							<h4 class="footer-title">Redes Sociales</h4>
 							<div class="fusion-social-networks">
 								<div class="redes_footer">
-									<a href=""><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
-									<a href=""><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
-									<a href=""><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href="https://www.facebook.com/salondelcacaoychocolateperu" target="_blank"><i title="facebook" class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://twitter.com/salondelcacao" target="_blank"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href="https://www.instagram.com/salondelcacao" target="_blank"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
 								</div>
 							</div>
 							<div style="clear:both;"></div>

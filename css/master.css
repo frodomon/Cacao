@@ -368,6 +368,14 @@ html{
 .contenido{
 	padding: 2rem 0;
 }
+.logos{
+	width:33.33%;
+	text-align: center;
+}
+.logos img{
+	width:100%
+	display:block;
+}
 /*----------PAGES -------*/
 .centrado{
 	text-align: center;

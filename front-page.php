@@ -61,21 +61,21 @@
 					<img src="<?php print IMAGES. '/subitems/Chocoa-trade-fair-e1449491246476.jpeg' ?>" width="100%" alt="">
 					<div class="p-3">
 						<h3 class="text-center">RUEDA DE NEGOCIOS</h3>
-						<p>Más de 120 stands pre-decorados albergarán a los más destacados productores de las regiones cacaoteras del Perú, así como representantes de los países con oferta exportable de cacao... <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<p>Más de 120 stands pre-decorados albergarán a los más destacados productores de las regiones cacaoteras del Perú, así como representantes de los países con oferta exportable de cacao... <span><a href="https://www.alfredovasquezalcala.com/smartbrands/rueda-de-negocios/" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
 				<div class="col-md-4 subitems">
 					<img src="<?php print IMAGES. '/subitems/event_2-e1449495732163.jpg' ?>" width="100%" alt="">
 					<div class="p-3">
 						<h3 class="text-center">CONFERENCIAS MAGISTRALES</h3>
-						<p>Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y... <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<p>Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y... <span><a href="https://www.alfredovasquezalcala.com/smartbrands/conferencias-magistrales/" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
 				<div class="col-md-4 subitems">
 					<img src="<?php print IMAGES. '/subitems/CHOCOA-3997-e1449491310680.jpg' ?>" width="100%" alt="">
 					<div class="p-3">
 						<h3 class="text-center">CHOCO - DEMO</h3>
-						<p>Clases magistrales para la preparación de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados. <span><a href="#" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						<p>Clases magistrales para la preparación de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados. <span><a href="https://www.alfredovasquezalcala.com/smartbrands/choco-demo/" class="b readmore">Leer más <i class="fa fa-share" aria-hidden="true"></i></a></span></p>
 					</div>
 				</div>
 			</div>
@@ -94,16 +94,16 @@
 	<section id="bg-choco" class="py-5">
 		<div class="container py-5 my-5">
 			<div class="row py-4">
-				<a class="btn btn-secondary f1-5 b" href="#">RUEDA DE NEGOCIOS <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="#">DESFILE DE MODAS <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="#">CHOCO - DEMO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/rueda-de-negocios/">RUEDA DE NEGOCIOS <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/desfile-de-modas/">DESFILE DE MODAS <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/choco-demo/">CHOCO - DEMO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
 			</div>
 			<div class="row py-4">
-				<a class="btn btn-secondary f1-5 b" href="#">BOSQUE TEMÁTICO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-				<a class="btn btn-secondary f1-5 b" href="#">SALÓN DE EXPOSICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/bosque-tematico/">BOSQUE TEMÁTICO <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/salon-de-exhibicion/">SALÓN DE EXPOSICIÓN <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
 			</div>
 			<div class="row py-4">
-				<a class="btn btn-secondary f1-5 b" href="#">CADENA DEL CACAO AL CHOCOLATE <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+				<a class="btn btn-secondary f1-5 b" href="https://www.alfredovasquezalcala.com/smartbrands/cadena-del-cacao-al-chocolate/">CADENA DEL CACAO AL CHOCOLATE <i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</section>
