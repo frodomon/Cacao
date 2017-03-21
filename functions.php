@@ -12,6 +12,7 @@
   require_once(INCLUDES.'/settings/sidebars.php');
   require_once(INCLUDES.'/settings/thumbnails.php');
   require_once(INCLUDES.'/settings/excerpt.php');
+  require_once(INCLUDES.'/settings/widgets.php');
 
   remove_action('wp_head', 'rsd_link');
   remove_action('wp_head', 'wp_generator');

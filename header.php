@@ -26,6 +26,8 @@
           <div id="idiomas" class="mb-0">
               <span><a id="idioma" href="#">ES</a></span>
               <span class="separator">|</span>
+              <span><a id="idioma" href="#">EN</a></span>
+              <span class="separator">|</span>
               <span><a id="idioma" href="#">FR</a></span>
           </div>
             

@@ -124,7 +124,7 @@
     top: 0;"></span>
 				</div>
 				<div class="col-md-9">
-					<p class="small b" style="color: #804315">COMISIÓN ORGANIZADORA: </p>
+					<p class="small b" style="color: #804315">COMITÉ ORGANIZADOR: </p>
 					<div class="row">
 						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/1.jpg' ?>" width="100%" alt=""></div>
 						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/2.jpg' ?>" width="100%" alt=""></div>

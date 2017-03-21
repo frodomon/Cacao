@@ -45,8 +45,8 @@
 							<div class="textwidget">
 								<p class="footer-content no-margin">VIII Salón del Cacao & Chocolate</p>
 								<p class="footer-content no-margin">Centro de Convenciones de Lima</p>
-								<p class="footer-content no-margin">Av. El Comercio S/N</p>
-								<p class="footer-content no-margin">San Borja, Lima – Perú.</p>
+								<p class="footer-content no-margin"><a class ='gmaps' href="https://www.google.com.pe/maps/place/Centro+de+Convenciones+de+Lima/@-12.0863713,-77.0028131,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c7d2eace5ded:0x60e727e3cac7362c!8m2!3d-12.0863713!4d-77.0006244?hl=en">Av. El Comercio S/N</a></p>
+								<p class="footer-content no-margin"><a class ='gmaps' href="https://www.google.com.pe/maps/place/Centro+de+Convenciones+de+Lima/@-12.0863713,-77.0028131,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c7d2eace5ded:0x60e727e3cac7362c!8m2!3d-12.0863713!4d-77.0006244?hl=en">San Borja, Lima – Perú.</a></p>
 							</div>
 							<div style="clear:both;"></div>
 						</div>
