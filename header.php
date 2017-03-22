@@ -33,7 +33,7 @@
       <section id="bottom-header">
         <div class="container">
           <div class="row" >
-            <div class="col-xl-3 col-lg-3 col-md-3 col-3 my-4">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-3">
               <div class="header-logo">
                 <img id="img-logo" src="<?php print IMAGES.'/logo-header.png'; ?>">
               </div>

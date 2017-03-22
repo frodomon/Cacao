@@ -1,23 +1,32 @@
 		<section id="footer" class="px-3">
 			<div class="container footer">
 				<div class="row">
-					<div class="footer-column col-md-6">
+					<div class="footer-column col-xl-3 col-lg-3 col-md-3 col-12">
+						<h4 class="footer-title"><?php echo __(utf8_encode("<!--:en-->Sponsors:<!--:--><!--:es-->Auspiciadores:<!--:--><!--:fr-->Auspiciadores:<!--:-->")); ?> </h4>
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-12 sponsors">
+								<img src="<?php print IMAGES. '/comision/minprod.png' ?>" alt="Ministerio de Producción">
+								<img src="<?php print IMAGES. '/comision/mincetur.png' ?>" alt="Ministerio de Comercio Exterior y Turismo">
+							</div>
+						</div>
+					</div>
+					<div class="footer-column col-xl-3 col-lg-3 col-md-3 col-12">
 						<div class="footer-menu">
           		<?php wp_nav_menu( array( 'theme_location' => 'primary_footer', 'menu_class' => 'footer-menus' ) ); ?>
         		</div>
 					</div>
-					<div class="footer-column col-md-3">
+					<div class="footer-column col-xl-3 col-lg-3 col-md-3 col-12">
 						<form method='post'>
               <div class='form_heading'>
-                  <h3 class='footer-title'><?php echo __(utf8_encode('<!--:en-->Newsletter<!--:--><!--:es-->Bolet&#237n<!--:--><!--:fr--><!--:-->')); ?></h3>
-                  <p class='footer-content'><?php echo __(utf8_encode('<!--:en-->Subscribe to our newsletter and receive the latest news<!--:--><!--:es-->Suscr&#237bete a nuestro bolet&#237n para que tengas las &#250ltimas noticias<!--:--><!--:fr--><!--:-->')); ?></p>
+                <h3 class='footer-title'><?php echo __(utf8_encode('<!--:en-->Newsletter<!--:--><!--:es-->Bolet&#237n<!--:--><!--:fr--><!--:-->')); ?></h3>
+                <p class='footer-content'><?php echo __(utf8_encode('<!--:en-->Subscribe to our newsletter and receive the latest news<!--:--><!--:es-->Suscr&#237bete a nuestro bolet&#237n para que tengas las &#250ltimas noticias<!--:--><!--:fr--><!--:-->')); ?></p>
               </div>
               <div class='form_body'>
               	<ul>
                 	<li>
-                			<div class='ginput_container ginput_container_text'>
-                				<input class="textbox" type='text' value='' class='large'  tabindex='3'  placeholder= "<?php echo __(utf8_encode('<!--:en-->First Name<!--:--><!--:es-->Nombres<!--:--><!--:fr--><!--:-->')); ?>" />
-                			</div>
+              			<div class='ginput_container ginput_container_text'>
+              				<input class="textbox" type='text' value='' class='large'  tabindex='3'  placeholder= "<?php echo __(utf8_encode('<!--:en-->First Name<!--:--><!--:es-->Nombres<!--:--><!--:fr--><!--:-->')); ?>" />
+              			</div>
                 	</li>
                 	<li>
                 		<div class='ginput_container ginput_container_text'>
@@ -29,17 +38,15 @@
                 			<input class="textbox" type='text' value='' class='large' tabindex='5'   placeholder='E-mail'/>"<?php echo __(utf8_encode('<!--:en-->E-mail<!--:--><!--:es-->E-mail<!--:--><!--:fr--><!--:-->')); ?>" />
                 		</div>
                 	</li>
-                 </ul>
+                </ul>
               </div>
-	        				<div class='gform_footer top_label'>
-	        					<input type='submit' id='form_submit_button' value='Send' tabindex='6' style="border:0; background-color: #f3910e;"onclick='if(window["gf_submitting_3"]){return false;}  window["gf_submitting_3"]=true;  ' /> 
-	        					<input type='hidden' name='gform_ajax' value='form_id=3&amp;title=1&amp;description=1&amp;tabindex=1' />
-	            
-	        				</div>
-	                    </form>
+      				<div class='gform_footer top_label'>
+      					<input type='submit' id='form_submit_button' value='Send' tabindex='6' style="border:0; background-color: #f3910e;"onclick='if(window["gf_submitting_3"]){return false;}  window["gf_submitting_3"]=true;  ' /> 
+      					<input type='hidden' name='gform_ajax' value='form_id=3&amp;title=1&amp;description=1&amp;tabindex=1' />            
+      				</div>
+            </form>
 					</div>
-					<div class="footer-column col-md-3">
-						
+					<div class="footer-column col-xl-3 col-lg-3 col-md-3 col-12">
 						<div class="address">
 							<h4 class="footer-title"><?php echo __(utf8_encode('<!--:en-->Find Us<!--:--><!--:es-->Ub&#237canos<!--:--><!--:fr--><!--:-->')); ?></h4>			
 							<div class="textwidget">
@@ -60,7 +67,6 @@
 								</div>
 							</div>
 							<div style="clear:both;"></div>
-							</div>
 						</div>
 					</div>
 				</div>
@@ -74,7 +80,7 @@
 						<div class='logo-footer'><a href=""><img src="<?php print IMAGES. '/logo-footer.png' ?>"  ></a></div>
 					</div>
 					<div class="col-xl-10 col-lg-10 col-md-9 col-10 branding">
-						<p><?php echo __(utf8_encode('<!--:en-->2017 @ Hall of Cocoa y Chocolate - Develop by<!--:--><!--:es-->2017 @ Sal&#243n del Cacao y Chocolate - Desarrollado por<!--:--><!--:fr--><!--:-->')); ?> <a href="http://www.sb360.com.pe"><strong>SmartBrands</strong></a></p>
+						<p><?php echo __(utf8_encode('<!--:en-->2017 @ Hall of Cocoa and Chocolate - Develop by<!--:--><!--:es-->2017 @ Sal&#243n del Cacao y Chocolate - Desarrollado por<!--:--><!--:fr--><!--:-->')); ?> <a href="http://www.sb360.com.pe"><strong>SmartBrands</strong></a></p>
 					</div>
 				</div>
 			</div>

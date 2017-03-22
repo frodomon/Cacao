@@ -52,47 +52,67 @@
 						<h1 class="b text-justify"><?php echo __(utf8_encode('<!--:en-->HALL OF COCOA AND CHOCOLATE<!--:--><!--:es-->SAL&#211N DEL CACAO Y EL CHOCOLATE<!--:--><!--:fr--><!--:-->')); ?></h1>
 						<p class="text-justify"><?php echo __(utf8_encode('<!--:en-->The event seeks to integrate the different national and international economic agents of the cocoa production chain, to manage knowledge, exchange information, establish contact networks and promote the commercial activity of cocoa and derivatives in the national and international market.<!--:--><!--:es-->El Sal&#243n busca integrar a los diferentes agentes econ&#243micos nacionales e internacionales de la cadena productiva del cacao, para gestionar conocimiento, intercambiar informaci&#243n, establecer redes de contacto y promover la actividad comercial  del cacao y derivados en el mercado nacional e internacional.<!--:--><!--:fr--><!--:-->')); ?>
 							<span><a href="#" class="b  text-white"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
-						
 					</div>
 				</div>
-				
 			</div>
-
-
+			<?php  
+			  	$link1 = '';
+			 		$link2 = '';
+			 		$link3 = '';
+       		if ( qtranxf_getLanguage() == 'es' ) {
+	         	$link1 = 'https://www.alfredovasquezalcala.com/smartbrands/es/rueda-de-negocios/';
+					  $link2 = 'https://www.alfredovasquezalcala.com/smartbrands/es/conferencias-magistrales/';
+					  $link3 = 'https://www.alfredovasquezalcala.com/smartbrands/es/choco-demo/';
+	        }
+	        elseif ( qtranxf_getLanguage() == 'en' ) {
+	          $link1 = 'https://www.alfredovasquezalcala.com/smartbrands/rueda-de-negocios/';
+					  $link2 = 'https://www.alfredovasquezalcala.com/smartbrands/conferencias-magistrales/';
+					  $link3 = 'https://www.alfredovasquezalcala.com/smartbrands/choco-demo/';
+	        }
+	        elseif ( qtranxf_getLanguage() == 'fr' ) {
+	          $link1 = 'https://www.alfredovasquezalcala.com/smartbrands/fr/rueda-de-negocios/';
+					  $link2 = 'https://www.alfredovasquezalcala.com/smartbrands/fr/conferencias-magistrales/';
+					  $link3 = 'https://www.alfredovasquezalcala.com/smartbrands/fr/choco-demo/';
+	        }
+    		?>
 			<div class="row py-4">
-				<div class="col-md-4 subitems">
-					<img src="<?php print IMAGES. '/subitems/Chocoa-trade-fair-e1449491246476.jpeg' ?>" width="100%" alt="">
-					<div class="p-3">
-						<h3 class="text-center"><?php echo __(utf8_encode('<!--:en-->BUSINESS ROUNDTABLE<!--:--><!--:es-->RUEDA DE NEGOCIOS<!--:-->')); ?></h3>
-						<p><?php echo __(utf8_encode('<!--:en-->Exhibitors will be able to meet potential buyers, exporters, and invited investors, generating business and strategic relationships in the medium and long term...<!--:--><!--:es-->Los expositores podr&#225n reunirse con potenciales compradores, exportadores, inversionistas invitados, generando negocios y relaciones estrat&#233gicas a mediano y largo plazo...<!--:--><!--:fr--><!--:-->')); ?><span><a href="https://www.alfredovasquezalcala.com/smartbrands/rueda-de-negocios/" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
-					</div>
-
-				</div>
-				<div class="col-md-4 subitems">
-					<img src="<?php print IMAGES. '/subitems/event_2-e1449495732163.jpg' ?>" width="100%" alt="">
-					<div class="p-3">
-						<h3 class="text-center"><?php echo __(utf8_encode('<!--:en-->MASTER CONFERENCES<!--:--><!--:es-->CONFERENCIAS MAGISTRALES<!--:-->')); ?></h3>
-						<p><?php echo __(utf8_encode('<!--:en-->Master lectures given by domestic and international experts on topics such as market and projections, trends, global cocoa and ...<!--:--><!--:es-->Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y...<!--:--><!--:fr--><!--:-->')); ?><span><a href="https://www.alfredovasquezalcala.com/smartbrands/conferencias-magistrales/" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 items">
+					<div class='item'>
+						<img src="<?php print IMAGES. '/subitems/Chocoa-trade-fair-e1449491246476.jpeg' ?>">
+						<div class="p-3">
+							<h3 class="text-center"><?php echo __(utf8_encode('<!--:en-->BUSINESS ROUNDTABLE<!--:--><!--:es-->RUEDA DE NEGOCIOS<!--:-->')); ?></h3>
+							<p><?php echo __(utf8_encode('<!--:en-->Exhibitors will be able to meet potential buyers, exporters, and invited investors, generating business and strategic relationships in the medium and long term...<!--:--><!--:es-->Los expositores podr&#225n reunirse con potenciales compradores, exportadores, inversionistas invitados, generando negocios y relaciones estrat&#233gicas a mediano y largo plazo...<!--:--><!--:fr--><!--:-->')); ?>
+								<span><a href="<?php echo $link1; ?>" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4 subitems">
-					<img src="<?php print IMAGES. '/subitems/CHOCOA-3997-e1449491310680.jpg' ?>" width="100%" alt="">
-					<div class="p-3">
-						<h3 class="text-center">CHOCO - DEMO</h3>
-						<p><?php echo __(utf8_encode('<!--:en-->Master classes for the preparation of chocolate-based products, provided by national and international experts invited...<!--:--><!--:es-->Clases magistrales para la preparaci&#243n de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados...<!--:--><!--:fr--><!--:-->')); ?><span><a href="https://www.alfredovasquezalcala.com/smartbrands/choco-demo/" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 items">
+					<div class='item'>
+						<img src="<?php print IMAGES. '/subitems/event_2-e1449495732163.jpg' ?>" width="100%" alt="">
+						<div class="p-3">
+							<h3 class="text-center"><?php echo __(utf8_encode('<!--:en-->MASTER CONFERENCES<!--:--><!--:es-->CONFERENCIAS MAGISTRALES<!--:-->')); ?></h3>
+							<p><?php echo __(utf8_encode('<!--:en-->Master lectures given by domestic and international experts on topics such as market and projections, trends, global cocoa and ...<!--:--><!--:es-->Disertaciones magistrales brindadas por expertos nacionales e internacionales en temas como: mercado y proyecciones, tendencias, industria mundial del cacao y...<!--:--><!--:fr--><!--:-->')); ?>
+								<span><a href="<?php echo $link2; ?>" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						</div>
 					</div>
-
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-12 items">
+					<div class='item'>
+						<img src="<?php print IMAGES. '/subitems/CHOCOA-3997-e1449491310680.jpg' ?>" width="100%" alt="">
+						<div class="p-3">
+							<h3 class="text-center">CHOCO - DEMO</h3>
+							<p><?php echo __(utf8_encode('<!--:en-->Master classes for the preparation of chocolate-based products, provided by national and international experts invited...<!--:--><!--:es-->Clases magistrales para la preparaci&#243n de productos a base de chocolate, brindados por expertos nacionales e internacionales invitados...<!--:--><!--:fr--><!--:-->')); ?>
+								<span><a href="<?php echo $link3; ?>" class="b readmore"><?php echo __(utf8_encode('<!--:en-->Read More<!--:--><!--:es-->Leer m&#225s<!--:--><!--:fr--><!--:-->')); ?><i class="fa fa-share" aria-hidden="true"></i></a></span></p>
+						</div>
+					</div>
 				</div>
 			</div>
-
 		</div>
-
 	</section>
-	<?php echo do_shortcode('[wpcdt-countdown id="6"]'); ?>
 	<section id="countdown">
 			<div class="container">
 				<div class="row">
-					
+					<?php echo do_shortcode('[wpcdt-countdown id="6"]'); ?>				
 				</div>
 			</div>
 	</section>
@@ -117,30 +137,21 @@
 	<section class="py-5 px-3">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3" style="position: relative;">
-					<p class="small b" style="color: #804315"><?php echo __(utf8_encode('<!--:en-->PURPOSE OF THE HALL<!--:--><!--:es-->PROP&#211SITO DEL SAL&#211N<!--:--><!--:fr--><!--:-->')); ?></p>
-					<p class="text-justify" style="text-transform: uppercase;color: #A98F70;"><?php echo __(utf8_encode('<!--:en-->Bringing the culture of cocoa and chocolate to the general public about its benefits<!--:--><!--:es-->Acercar la cultura del cacao y chocolate,  informando al p&#250blico en general sobre sus beneficios<!--:--><!--:fr--><!--:-->')); ?></p>
-	
-					<span style="    position: absolute;
-    right: 0;
-    width: 1px;
-    background-color: #A98F70;
-    display: block;
-    height: 50%;
-    top: 0;"></span>
+				<div class="col-xl-3 col-lg-3 col-md-3 col-12">
+					<p class="section-title-comite"><?php echo __(utf8_encode('<!--:en-->PURPOSE OF THE HALL<!--:--><!--:es-->PROP&#211SITO DEL SAL&#211N<!--:--><!--:fr--><!--:-->')); ?></p>
+					<p class="section-content purpose text-justify" style="text-transform: uppercase;color: #A98F70;"><?php echo __(utf8_encode('<!--:en-->Bringing the culture of cocoa and chocolate to the general public about its benefits<!--:--><!--:es-->Acercar la cultura del cacao y chocolate,  informando al p&#250blico en general sobre sus beneficios<!--:--><!--:fr--><!--:-->')); ?></p>
 				</div>
-				<div class="col-md-9">
-					<p class="small b"><?php echo __(utf8_encode("<!--:en-->ORGANIZING COMMITTEE:<!--:--><!--:es-->COMIT&#201 ORGANIZADOR:<!--:--><!--:fr-->COMITÉ ORGANIZADOR:<!--:-->")); ?> </p>
+				<div class="col-xl-9 col-lg-9 col-md-9 col-12 lista-comite">
+					<p class="section-title-comite"><?php echo __(utf8_encode("<!--:en-->ORGANIZING COMMITTEE:<!--:--><!--:es-->COMIT&#201 ORGANIZADOR:<!--:--><!--:fr-->COMITÉ ORGANIZADOR:<!--:-->")); ?> </p>
 					<div class="row">
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/1.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/2.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/3.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/4.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/5.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/6.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/7.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/8.jpg' ?>" width="100%" alt=""></div>
-						<div class="col-md-4"><img class="py-4" src="<?php print IMAGES. '/comision/9.jpg' ?>" width="100%" alt=""></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/magr.png' ?>" alt="Ministerio de Agricultura y Riego"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/devida.png' ?>" alt="Comisión Nacional para el Desarrollo y Vida sin Drogas"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/promperu.png' ?>" alt="Comisión de Promoción del Perú para la Exportación y el Turismo"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/appcacao.png' ?>" alt="Asociación Peruana de Productores de Cacao"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/pnud.png' ?>" alt="Programa de las Naciones Unidas"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/usaid.png' ?>" alt="Agencia de los Estados Unidos para el Desarrollo Internacional"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/technoserve.png' ?>" alt="TechnoServe"></div>
+						<div class="col-xl-3 col-lg-3 col-md-3 col-3 logos-home-comite"><img class="py-4" src="<?php print IMAGES. '/comision/alianzacacaoperu.png' ?>" alt="Alianza Cacao Peru"></div>
 					</div>
 				</div>
 			</div>
@@ -151,16 +162,16 @@
 <script type="text/javascript">
 	$(window).scroll(function(){
 		window_y = $(window).scrollTop(); // VALOR QUE SE HA MOVIDO DEL SCROLL
-		nav = parseInt($('#redes-top').height());
+		nav = parseInt($('#top-header').height());
 	    if(window_y > nav){
-	    	$('#nav-items').addClass('nav-fixed');
-	    	$('#nav-link li a').css('height','90px');
-	    	$('#img-logo').addClass('logo-small');
+	    	$('#bottom-header').addClass('fixed-header');
+	    	$('#main-menu ul li a').css('height','90px');
+	    	$('.header-logo').css('height','90px');
 	    }
 	    if(window_y == 0){
-	    	$('#nav-items').removeClass('nav-fixed');
-	    	$('#nav-link li a').css('height','139px');
-	    	$('#img-logo').removeClass('logo-small');
+	    	$('#bottom-header').removeClass('fixed-header');
+	    	$('#main-menu ul li a').css('height','139px');
+	    	$('.header-logo').css('height','139px');
 	    }
    	});
 </script>
