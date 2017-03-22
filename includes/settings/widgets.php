@@ -6,7 +6,7 @@
     'name'          => 'Header Widget Zone',
     'id'            => 'header-widget',
     'description'   => '',
-    'before_widget' => '<div class="header-widget col-sm-3">',
+    'before_widget' => '<div id="idiomas" class="mb-0">',
     'after_widget'  => '</div>',
     'before_title'  => '<h2>',
     'after_title'   => '</h2>' );

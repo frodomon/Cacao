@@ -24,11 +24,7 @@
             <a href="https://twitter.com/salondelcacao" target="_blank"><i title="twitter" class="fa fa-twitter" aria-hidden="true"></i></a>
             <a href="https://www.instagram.com/salondelcacao" target="_blank"><i title="instagram" class="fa fa-instagram" aria-hidden="true"></i></a>
           <div id="idiomas" class="mb-0">
-              <span><a id="idioma" href="#">ES</a></span>
-              <span class="separator">|</span>
-              <span><a id="idioma" href="#">EN</a></span>
-              <span class="separator">|</span>
-              <span><a id="idioma" href="#">FR</a></span>
+            <?php if (!dynamic_sidebar('header-widget')) {} ?>
           </div>
             
           </div>

@@ -191,7 +191,7 @@ html{
 .footer a.gmaps:hover{
 	color:#FFFFFF;
 	font-size: 1rem;
-	
+
 }
 .logo-small{
 	height:42px;
@@ -403,7 +403,7 @@ html{
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
+	padding: 2%;
 
 }
 .logos img{
