@@ -120,21 +120,25 @@
 			</div>
 		</div>
 	</section>
+
 	<section id="countdown">
+
 			<div class="container">
+				
 				<div class="row">
-					<?php echo do_shortcode('[wpcdt-countdown id="6"]'); ?>
-					<?php 
-						if ( qtranxf_getLanguage() == 'es' ) {
-		         	echo do_shortcode('[wpcdt-countdown id="6"]');
-		        }
-		        elseif ( qtranxf_getLanguage() == 'en' ) {
-		        	echo do_shortcode('[wpcdt-countdown id="254"]');
-		        }
-		        elseif ( qtranxf_getLanguage() == 'fr' ) {
-		        	echo do_shortcode('[wpcdt-countdown id="255"]');
-		        }
-	        ?>
+					<div class = 'col-xl-12 col-lg-12 col-md-12 col-12'>
+						<?php 
+							if ( qtranxf_getLanguage() == 'es' ) {
+			         	echo do_shortcode('[wpcdt-countdown id="6"]');
+			        }
+			        elseif ( qtranxf_getLanguage() == 'en' ) {
+			        	echo do_shortcode('[wpcdt-countdown id="254"]');
+			        }
+			        elseif ( qtranxf_getLanguage() == 'fr' ) {
+			        	echo do_shortcode('[wpcdt-countdown id="255"]');
+			        }
+		        ?>
+	        </div>
 				</div>
 			</div>
 	</section>
