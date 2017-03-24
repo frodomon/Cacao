@@ -9,6 +9,9 @@ html{
 	background-color: #512B1C;
 	color: #FFFFFF;
 }
+.aligncenter{
+	text-align: center;
+}
 /*-----------------------HEADER---------------*/
 #top-header{
 	background-color: #633A2C;
@@ -184,7 +187,15 @@ html{
 #evento{
 	width:100%;
 }
-
+.address-link:hover,
+.address-link:visited{
+	color: #FF4611;
+	text-decoration: none;
+}
+.address-link{
+	text-decoration: none;
+	color:black;
+}
 
 .footer a.gmaps,
 .footer a.gmaps:visited,
@@ -309,9 +320,14 @@ html{
 }
 .footer-title{
 	color:#FFA300;
+	text-align: center;
+}
+.hide-responsive{
+	display:block;
 }
 .footer-content{
 	color: #FFFFFF;
+	text-align: center;
 }
 .no-padding{
 	padding:0;
@@ -350,9 +366,13 @@ html{
 .textwidget{
 	color: #8b706e;
 }
+.redes_footer{
+	text-align: center;
+}
 .redes_footer a{
 	color: #f3910e;
 	padding: 0 10px;
+
 }
 .address{
 	padding-bottom: 25px;
@@ -389,6 +409,12 @@ html{
 	font-weight: bold;
 	padding: 10px 0;
 }
+.picture{
+	margin: 1rem 0;
+}
+.picture img{
+	width:100%;
+}
 .imagen{
 	width:100%;
 	display:flex;
@@ -397,15 +423,63 @@ html{
   align-items: center;
   padding: 2rem 0;
 }
+.contact-form{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.wpcf7{
+	width:100%;
+}
+.cf-line{
+	padding: 0.25rem 0;
+}
+.cf-line span input{
+	width:100%;
+	border-radius:4px;
+	padding: 0 1rem;
+}
+.cf-button{
+	padding-top: 1rem;
+}
+.cf-button input{
+	width: 100%;
+	border-radius: 4px;
+	background: #f3910e;
+  background-color: rgb(243, 145, 14);
+	color: #fff;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 0;
+	font-weight: bold;
+	padding: 10px 0;
+}
 .contenido{
 	padding: 2rem 0;
 }
-.naranjacacao,
-.naranjacacao:visited{
-	color:#FFA300;
+.naranjacacao{
+	color:black;
 }
+.gracias{
+  text-align: center;
+  font-size: 2rem;
+}
+.watermark{
+	width: 40%;
+	margin:auto;
+}
+.watermark img{
+	width:100%;
+}
+.naranjacacao:visited,
 .naranjacacao:hover{
 	color:#FF4611;
+	text-decoration: none;
+}
+.sponsors{
+	padding: 1rem 0;
 }
 .sponsors img{
 	width:100%;
@@ -420,6 +494,9 @@ html{
 	align-items: center;
 	padding: 2%;
 
+}
+.lista{
+	color:black;
 }
 .logos img{
 	width:100%;
@@ -463,7 +540,6 @@ html{
 		display: none !important;
 	}
 	#bg-choco .btn{
-		width: 100%;
 		margin-right: 0;
 		margin-bottom: 10px;
 	}
@@ -480,7 +556,25 @@ html{
 		display: none;
 	}
 	.items{
-	padding-right: 0;
-	padding-left: 0;
-}
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.hide-responsive{
+		display:none;
+	}
+	.footer-menu{
+		text-align: center;
+	}
+	.footer-column{
+		padding-top: 2rem;
+	}
+	.lista-comite{
+		border:0;
+	}.logos{
+		width:50%;
+	}
+	.gallery img{
+		width:100%;
+		padding: 1rem;
+	}
 }
